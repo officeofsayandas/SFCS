@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<blogger>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title><data:blog.pageTitle/></title>
+        <link href="styles.css" rel="stylesheet"/>
+        <link href="css/footer-animations.css" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+        <style>
+            html { scroll-behavior: smooth; }
+            body { overflow-x: hidden; }
+            * { transform-style: preserve-3d; }
+        </style>
+    </head>
+    <body>
+        <b:section class="navbar" id="navbar" maxwidgets="1" showaddelement="no">
+            <b:widget id="Navbar1" locked="true" title="Navigation" type="Navbar">
+                <b:includable id="main">
+                    <!-- Your navigation content here -->
+                </b:includable>
+            </b:widget>
+        </b:section>
+
+        <main>
+            <b:section class="hero-section" id="hero" showaddelement="yes">
+                <!-- Hero section content -->
+            </b:section>
+
+            <b:section class="about" id="about" showaddelement="yes">
+                <!-- About section content -->
+            </b:section>
+
+            <b:section class="services" id="services" showaddelement="yes">
+                <!-- Services section content -->
+            </b:section>
+
+            <b:section class="blog-posts" id="blog" showaddelement="yes">
+                <b:widget id="Blog1" locked="true" title="Blog Posts" type="Blog">
+                    <b:includable id="main">
+                        <!-- Blog posts will be automatically inserted here -->
+                    </b:includable>
+                </b:widget>
+            </b:section>
+
+            <b:section class="contact" id="contact" showaddelement="yes">
+                <!-- Contact section content -->
+            </b:section>
+        </main>
+
+        <b:section class="footer" id="footer" showaddelement="no">
+            <b:widget id="Footer1" locked="true" title="Footer" type="HTML">
+                <b:includable id="main">
+                    <!-- Footer content -->
+                </b:includable>
+            </b:widget>
+        </b:section>
+
+        <script src="js/animation.js"></script>
+        <script src="js/hero-slider.js"></script>
+        <script src="js/slider.js"></script>
+        <script src="js/digital-clock.js"></script>
+        <script src="js/nav.js"></script>
+        <script src="script.js"></script>
+    </body>
+</blogger>
